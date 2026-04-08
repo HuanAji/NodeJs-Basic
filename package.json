@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "api-service": "node index.js",
+    "api-service": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "huan",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/HuanAji/NodeJs-Basic#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   }
 }
