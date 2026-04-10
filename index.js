@@ -1,8 +1,8 @@
 import express from "express";
 const app = express();
 const port = 3000;
-
 // Routes / url / endpoint utama kita method GET
+
 app.get("/", (request, response) => {
   response.send("utama");
 });
@@ -12,6 +12,7 @@ app.get("/index", (req, res) => {
 });
 
 app.post("/login", (req, res) => {
+  console.log({ requestFromOutdside: req });
   res.send("Login berhasil");
 });
 
